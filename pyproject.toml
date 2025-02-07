@@ -17,6 +17,10 @@ classifiers = [
     "Programming Language :: Python :: 3.13",
     "Topic :: Software Development :: Libraries :: Python Modules",
 ]
+dependencies = [
+    "openai>=1.61.1",
+    "rich>=13.9.4",
+]
 
 [project.urls]
 Homepage = "https://libklein.github.io/llm-fishtank/"

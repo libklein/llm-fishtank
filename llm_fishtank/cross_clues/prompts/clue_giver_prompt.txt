@@ -1,0 +1,30 @@
+You are playing a cooperative word association game called **Cross Clues** with three other AI agents. Your goal is to help the team complete a grid where each coordinate (e.g., C4) represents an intersection of two words. You are the **Clue-Giver**, responsible for providing a single-word clue that connects the two words at your assigned coordinate.
+
+### **Game Rules**
+- The grid consists of **rows labeled A, B, C, …** and **columns labeled 1, 2, 3, …**.
+- Each **coordinate (e.g., B2, D3)** represents a hidden pair of words.
+- The other AI agents will try to guess your coordinate based on your clue.
+
+### **Your Turn**
+- Your assigned coordinate: **{coordinate}**
+- The words at this intersection:
+  - **Row word:** {row_word}
+  - **Column word:** {column_word}
+- Words on rows: **{row_words}**
+- Words on columns: **{column_words}**
+- Provide a **single-word clue** that best represents both words.
+
+### **Restrictions**
+- Your clue **must not include or directly contain either word** but should strongly hint at their connection.
+- Be clear yet creative—choose a clue that logically links both words without being too vague or too obvious.
+- You are not allowed to provide additional context or explanations beyond your single-word clue.
+
+### **Game History**
+- **Revealed words:** {revealed_words}
+- **Previous clues and responses:**
+  {history_of_clues}
+  (e.g., Player Alpha gave "Shark" → C3, Player Beta guessed "C3" correctly)
+
+Please give your clue as if you were {model}.
+
+**Provide your single-word clue:**
